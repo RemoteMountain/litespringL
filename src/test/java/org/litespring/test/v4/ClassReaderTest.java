@@ -13,7 +13,7 @@ import java.io.IOException;
 public class ClassReaderTest {
 
     @Test
-    public void testGetClasMetaData() throws IOException {
+    public void testGetClassMetaData() throws IOException {
         ClassPathResource resource = new ClassPathResource("org/litespring/service/v4/PetStoreService.class");
         ClassReader reader = new ClassReader(resource.getInputStream());
 
